@@ -1,0 +1,197 @@
+.w{
+	width:951px;
+}
+
+.wulnavi{
+	height:40px;
+}
+
+#w-header{
+	z-index: 1;
+}
+
+ .h_body_navi {
+ 	display: none; 
+} 
+
+.search input{
+	width: 80%;
+}
+
+#search{
+	width: 279px;
+}
+
+.shortcut_right{
+	margin-right: 0px; 
+}
+
+
+.p_themesone li{
+	float: left;
+	border: solid 5px #FFECF9;
+	margin: 5px;
+}
+
+.p_themesone li.f{
+	margin-left: 0;
+}
+
+.p_themesone li.l{
+	margin-right: 0;
+}
+
+.themeimg {
+	padding:6px;
+}
+
+
+.themeimg img{
+	height: 160px;
+	width: 160px;
+	display: block;
+	margin: 0 auto;
+}
+
+.themeinfo{
+	line-height: 20px;
+	background: #FFECF9;
+}
+
+.themeinfo a{
+	color: #DF326F;
+	width: 172px;
+	display: block;
+	height: 20px;
+	overflow: hidden;
+}
+
+.themeinfo a:hover{
+	text-decoration: underline;
+}
+
+.yuanlai{
+	color: #FFA3BA;
+}
+
+.line{
+	float: left;
+	position: relative;
+}
+
+.yuanlai i{
+	position: absolute;
+	width: 100%;
+	border-top: solid 1px #FFA3BA;
+	top: 49%;
+	left: 0;
+}
+
+.xianzai{
+	color: #DF326F;
+}
+
+.xianzai img{
+	float: right;
+}
+
+#select{
+	margin-top:15px;
+}
+
+#select .mt{
+	line-height: 30px;
+	background: #eee;
+	border:solid 1px #ccc;
+	border-bottom: none;
+}
+
+#select .mt h1{
+	font-size: 14px;
+	color: #666;
+	padding-left: 10px;
+}
+
+#select .mc{
+	border: solid 1px #ccc;
+border-top: none;
+line-height: 40px;
+}
+
+.attr{
+	border-bottom: dashed 1px #ccc;
+	overflow: hidden;
+}
+
+.a-key{
+	text-align: right;
+	width: 120px;
+	float: left;
+	font-weight: bold;
+}
+
+.a-values{
+	margin-left: 120px;
+	position: relative;
+}
+
+div.last{
+	border-bottom:none
+}
+
+.f-list{
+	overflow: hidden;
+	height: 20px;
+	padding: 10px 0;
+	line-height: 20px;
+}
+
+.f-list li{
+	float: left;
+	border: solid 1px #ccc;
+	padding: 0 17px 0 5px;
+	margin: 0 10px;
+	position: relative;
+}
+
+.f-list b{
+	position: absolute;
+	top: 6px;
+	right: 4px;
+	height: 7px;
+	width: 7px;
+	background: url(../images/i.png) no-repeat -37px -62px;
+	cursor: pointer;
+}
+.butong li{
+	border: none;
+	padding: 0 5px;
+}
+
+.butong a{
+	color: #005AA0
+} 
+
+.butong a:hover{
+	color: #E4393C;
+}
+
+.v-option{
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	line-height: 20px;
+}
+
+.v-option a:hover{
+	text-decoration: underline;
+	color: #e4393c;
+}
+
+#foot{
+	margin-top:10px;
+}
+
+.procuct_content{
+	min-height: 560px;
+}

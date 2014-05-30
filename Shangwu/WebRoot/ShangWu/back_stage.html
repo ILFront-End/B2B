@@ -1,0 +1,242 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/overall.css">
+	<link rel="stylesheet" href="css/back_stage.css">
+	<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div id="logo"></div>
+		<div id="user">
+			<div class="user">
+				<span class='own'>当前用户：</span>
+				<span>妖精</span> <font>[退出]</font>
+			</div>
+		</div>
+	</div>
+	<div class="wrap wi">
+		<div id="side">
+			<div id="accordion">
+				<h3>会员管理</h3>
+				<div class='AccordionContent' style='display:block'>
+					<div class='xiaofen' style='background:#ccc'>VIP会员</div>
+					<div class='xiaofen'>普通会员</div>
+				</div>
+				<h3>订单管理</h3>
+				<div class='AccordionContent'>
+					<div class='xiaofen'>提醒卖家发货</div>
+				</div>
+				<h3>信息审核</h3>
+				<div class='AccordionContent'>
+					<div class='xiaofen'>商品发布信息审核</div>
+					<div class='xiaofen'>订单退订审核</div>
+				</div>
+			</div>
+		</div>
+		<div class="allcontent">
+			<div id="huiyuan">
+				<div class="alltop">
+					<span>VIP会员</span>
+				</div>
+				<div class="allsearch">
+					<input type="text">
+					<input type="button" value='搜索'></div>
+				<div class="allcenter">
+					<table class='rank'>
+						<thead>
+							<tr class='t_header'>
+								<th></th>
+								<th>姓名</th>
+								<th>公司名称</th>
+								<th>手机号</th>
+								<th>邮箱</th>
+								<th>加入时间</th>
+							</tr>
+						</thead>
+
+						<tr>
+							<td>
+								<input type="checkbox"></td>
+							<td>1</td>
+							<td>我们的家</td>
+							<td>15045698241</td>
+							<td>759454986@qq.com</td>
+							<td>2014-03-05</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox"></td>
+							<td>1</td>
+							<td>我们的家</td>
+							<td>15045698241</td>
+							<td>759454986@qq.com</td>
+							<td>2014-03-05</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox"></td>
+							<td>1</td>
+							<td>我们的家</td>
+							<td>15045698241</td>
+							<td>759454986@qq.com</td>
+							<td>2014-03-05</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox"></td>
+							<td>1</td>
+							<td>我们的家</td>
+							<td>15045698241</td>
+							<td>759454986@qq.com</td>
+							<td>2014-03-05</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox"></td>
+							<td>1</td>
+							<td>我们的家</td>
+							<td>15045698241</td>
+							<td>759454986@qq.com</td>
+							<td>2014-03-05</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox"></td>
+							<td>1</td>
+							<td>我们的家</td>
+							<td>15045698241</td>
+							<td>759454986@qq.com</td>
+							<td>2014-03-05</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox"></td>
+							<td>1</td>
+							<td>我们的家</td>
+							<td>15045698241</td>
+							<td>759454986@qq.com</td>
+							<td>2014-03-05</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox"></td>
+							<td>1</td>
+							<td>我们的家</td>
+							<td>15045698241</td>
+							<td>759454986@qq.com</td>
+							<td>2014-03-05</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox"></td>
+							<td>1</td>
+							<td>我们的家</td>
+							<td>15045698241</td>
+							<td>759454986@qq.com</td>
+							<td>2014-03-05</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox"></td>
+							<td>1</td>
+							<td>我们的家</td>
+							<td>15045698241</td>
+							<td>759454986@qq.com</td>
+							<td>2014-03-05</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox"></td>
+							<td>1</td>
+							<td>我们的家</td>
+							<td>15045698241</td>
+							<td>759454986@qq.com</td>
+							<td>2014-03-05</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="xinxishenhe">
+				<div class="alltop">
+					<span>信息审核</span>
+				</div>
+				<div class="allsearch">
+					<select name="shenhesearch" id="shenhesearch">
+						<option value="未审核">未审核</option>
+						<option value="已通过">已通过</option>
+						<option value="未通过">未通过</option>
+					</select>
+					<input type="button" value='搜索'></div>
+				<div class="allcenter">
+					<table class='ranks shenhe'>
+						<thead>
+							<tr class='t_header'>
+								<th>信息标题</th>
+								<th>发布时间</th>
+								<th>审核操作</th>
+							</tr>
+						</thead>
+						<tbody>
+							<!-- 不需注释的 -->
+							<!-- 	 <tr>
+							<td>我要发布</td>
+							<td>2014-04-17</td>
+							<td>
+								<span>通过</span>
+								<span>不通过</span>
+							</td>
+						</tr>
+						-->
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div id="tixingfahuo">
+			<div class="alltop">
+				<span>订单管理</span>
+			</div>
+			<div class="allsearch">
+				<select name="shenhesearch" id="shenhesearch">
+					<option value="未审核">未审核</option>
+					<option value="已通过">已通过</option>
+					<option value="未通过">未通过</option>
+				</select>
+				<input type="button" value="搜索"></div>
+			<div class="allcenter">
+				<table class="ranks dingdan">
+					<thead>
+						<tr class="t_header">
+							<th>订单号</th>
+							<th>卖家</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<!-- <tr>
+						<td>%s</td>
+						<td class='fahuotwo'>%s</td>
+						<td>
+							<span>可发货</span>
+						</td>
+					</tr>
+					<tr>
+						<td>%s</td>
+						<td class='fahuotwo'>%s</td>
+						<td>
+							<span>可发货</span>
+						</td>
+					</tr>
+					-->
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+</div>
+<div id="foot"></div>
+<script type="text/javascript" src="js/back_stage.js"></script>
+</body>
+</html>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LoginAction</servlet-name>
+		<servlet-class>com.sanyinchen.action.LoginAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ChecKUseraction</servlet-name>
+		<servlet-class>com.sanyinchen.action.ChecKUseraction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ResigerAction</servlet-name>
+		<servlet-class>com.sanyinchen.action.ResigerAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>upload</servlet-name>
+		<servlet-class>com.sanyinchen.action.upload</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ProductAction</servlet-name>
+		<servlet-class>com.sanyinchen.action.ProductAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>GetUserInfo</servlet-name>
+		<servlet-class>com.sanyinchen.action.GetUserInfo</servlet-class>
+	</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HomePageNew</servlet-name>
+    <servlet-class>com.sanyinchen.action.HomePageNew</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AuditDao</servlet-name>
+    <servlet-class>com.sanyinchen.action.AuditDao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangStateAction</servlet-name>
+    <servlet-class>com.sanyinchen.action.ChangStateAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HotProductAction</servlet-name>
+    <servlet-class>com.sanyinchen.action.HotProductAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SingleProductAction</servlet-name>
+    <servlet-class>com.sanyinchen.action.SingleProductAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>productShopAction</servlet-name>
+    <servlet-class>com.sanyinchen.action.productShopAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetShopAction</servlet-name>
+    <servlet-class>com.sanyinchen.action.GetShopAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteShopAction</servlet-name>
+    <servlet-class>com.sanyinchen.action.DeleteShopAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ComputeShop</servlet-name>
+    <servlet-class>com.sanyinchen.action.ComputeShop</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetArea</servlet-name>
+    <servlet-class>com.sanyinchen.action.GetArea</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SenProductAction</servlet-name>
+    <servlet-class>com.sanyinchen.action.SenProductAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SellAction</servlet-name>
+    <servlet-class>com.sanyinchen.action.SellAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuyAction</servlet-name>
+    <servlet-class>com.sanyinchen.action.BuyAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuyToMoney</servlet-name>
+    <servlet-class>com.sanyinchen.action.BuyToMoney</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TixingMaiJiaAction</servlet-name>
+    <servlet-class>com.sanyinchen.action.TixingMaiJiaAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FahuoAction</servlet-name>
+    <servlet-class>com.sanyinchen.action.FahuoAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SellFahuoAction</servlet-name>
+    <servlet-class>com.sanyinchen.action.SellFahuoAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuyShouhuoAction</servlet-name>
+    <servlet-class>com.sanyinchen.action.BuyShouhuoAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetKindofAction</servlet-name>
+    <servlet-class>com.sanyinchen.action.GetKindofAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HomeDateAction</servlet-name>
+    <servlet-class>com.sanyinchen.mobileaction.HomeDateAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PinLunAction</servlet-name>
+    <servlet-class>com.sanyinchen.action.PinLunAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllPinLunAction</servlet-name>
+    <servlet-class>com.sanyinchen.action.GetAllPinLunAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetSomePinLun</servlet-name>
+    <servlet-class>com.sanyinchen.action.GetSomePinLun</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>mClassDataAction</servlet-name>
+    <servlet-class>com.sanyinchen.mobileaction.mClassDataAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>mLoginAction</servlet-name>
+    <servlet-class>com.sanyinchen.mobileaction.mLoginAction</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>LoginAction</servlet-name>
+		<url-pattern>/servlet/LoginAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChecKUseraction</servlet-name>
+		<url-pattern>/servlet/ChecKUseraction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ResigerAction</servlet-name>
+		<url-pattern>/servlet/ResigerAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>upload</servlet-name>
+		<url-pattern>/servlet/upload</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ProductAction</servlet-name>
+		<url-pattern>/servlet/ProductAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetUserInfo</servlet-name>
+		<url-pattern>/servlet/GetUserInfo</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HomePageNew</servlet-name>
+    <url-pattern>/servlet/HomePageNew</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuditDao</servlet-name>
+    <url-pattern>/servlet/AuditDao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangStateAction</servlet-name>
+    <url-pattern>/servlet/ChangStateAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HotProductAction</servlet-name>
+    <url-pattern>/servlet/HotProductAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SingleProductAction</servlet-name>
+    <url-pattern>/servlet/SingleProductAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productShopAction</servlet-name>
+    <url-pattern>/servlet/productShopAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetShopAction</servlet-name>
+    <url-pattern>/servlet/GetShopAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteShopAction</servlet-name>
+    <url-pattern>/servlet/DeleteShopAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ComputeShop</servlet-name>
+    <url-pattern>/servlet/ComputeShop</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetArea</servlet-name>
+    <url-pattern>/servlet/GetArea</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SenProductAction</servlet-name>
+    <url-pattern>/servlet/SenProductAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SellAction</servlet-name>
+    <url-pattern>/servlet/SellAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyAction</servlet-name>
+    <url-pattern>/servlet/BuyAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyToMoney</servlet-name>
+    <url-pattern>/servlet/BuyToMoney</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TixingMaiJiaAction</servlet-name>
+    <url-pattern>/servlet/TixingMaiJiaAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FahuoAction</servlet-name>
+    <url-pattern>/servlet/FahuoAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SellFahuoAction</servlet-name>
+    <url-pattern>/servlet/SellFahuoAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyShouhuoAction</servlet-name>
+    <url-pattern>/servlet/BuyShouhuoAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetKindofAction</servlet-name>
+    <url-pattern>/servlet/GetKindofAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HomeDateAction</servlet-name>
+    <url-pattern>/servlet/HomeDateAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PinLunAction</servlet-name>
+    <url-pattern>/servlet/PinLunAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllPinLunAction</servlet-name>
+    <url-pattern>/servlet/GetAllPinLunAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSomePinLun</servlet-name>
+    <url-pattern>/servlet/GetSomePinLun</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>mClassDataAction</servlet-name>
+    <url-pattern>/servlet/mClassDataAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>mLoginAction</servlet-name>
+    <url-pattern>/servlet/mLoginAction</url-pattern>
+  </servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>/ShangWu/homepage.html</welcome-file>
+	</welcome-file-list>
+</web-app>

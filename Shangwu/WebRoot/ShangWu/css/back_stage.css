@@ -1,0 +1,209 @@
+.wrap{
+	overflow: hidden;
+	zoom:1;
+}
+
+#header{
+	background: #2280ca;
+	height: 60px;
+}
+
+#logo{
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	height: 40px;
+	width: 180px;
+	border:solid 1px #eee;
+}
+
+#tabnavi{
+	height:80px;
+	position: relative;
+}
+
+.tabnavi{
+	margin-left: 285px;
+	position: relative;
+	top: 60%;
+}
+
+.aa{
+	float: left;
+	line-height: 30px;
+	padding: 0 20px;
+	color: wheat;
+	border: solid 1px #2280ca;
+	cursor: pointer;
+}
+
+#user{
+	float: right;
+	position: relative;
+	line-height: 30px;
+	right: 50px;
+}
+
+.user span{
+	color:#666;
+}
+
+.user font{
+	padding-left: 15px;
+	cursor: pointer;
+	color:#666;
+}
+
+span.own{
+	color:wheat;
+}
+
+#side{
+	margin-top: 5px;
+	float: left;
+	width: 221px;
+	height: 612px;
+	background: #ddedfa;
+}
+
+#accordion{
+	padding:0 5px;
+	background: #ddedfa;
+}
+
+#accordion h3{
+	font-size: 16px;
+	color: #666;
+	line-height: 25px;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+	margin: 5px 0;
+	text-align: center;
+	cursor: pointer;
+	background: #eee;
+}
+
+.AccordionContent{
+	display: none;
+	margin: 0 6px;
+	border: solid 1px #ccc;
+	border-bottom: none;
+}
+
+.xiaofen{
+	cursor:pointer;
+	text-align: center;
+	border-bottom: solid 1px #ccc;
+	padding: 5px 0px;
+}
+
+.allcontent{
+	float: left;
+	margin-left: 10px;
+	border: solid 1px #ccc;
+	border-top: none;
+	min-height: 616px;
+}
+
+.alltop{
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	background: #ddedfa;
+	text-indent: 1em;
+	border: solid 1px #ccc;
+	width: 1101px;
+}
+
+.allsearch{
+	margin: 5px 15px;
+	border-bottom: dashed 1px #ccc;
+	padding-bottom: 5px;
+}
+
+.allcenter{
+	margin: 5px 15px 0;
+	padding-bottom: 5px;
+}
+
+.rank{
+	border:solid 1px #ccc;
+	border-collapse:collapse; 
+}
+
+.rank td{
+	border:solid 1px #ccc;
+	padding:6px 61px;
+}
+
+.rank th{
+	border:solid 1px #ccc;
+	padding:9px 20px;
+}
+
+.t_header{
+	background:#2280ca;
+	color: white;
+}
+
+.odd{
+	background: #fff38f;
+}
+
+.even{
+	background: #ffffff;
+}
+
+.selected{
+	background: #cdc97d;
+}
+
+#foot{
+	height: 30px;
+	background: #2280ca;
+}
+
+a.one{
+	color:red;
+}
+
+#huiyuan{
+	display: block;
+}
+
+#xinxishenhe{
+	display:none;
+}
+
+#tixingfahuo{
+	display:none;
+}
+
+.ranks{
+	width: 100%;
+	text-align:center;
+	line-height: 30px;
+	border-collapse: collapse;
+}
+
+.ranks th{
+	border:solid 1px #ccc;
+}
+
+.ranks td{
+	border: solid 1px #ccc;
+}
+
+.ranks tbody span{
+	padding: 0 5px;
+	cursor: pointer;
+}
+
+.ranks tbody span:hover{
+	color: #2280ca;
+}
+
+
+.fahuotwo{
+	width: 730px;
+}

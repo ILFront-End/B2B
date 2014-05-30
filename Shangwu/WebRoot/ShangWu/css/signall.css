@@ -1,0 +1,19 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, big, cite, code, del, em, font, img, ins, small, strong, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 12px/20px Arial,Verdana,"宋体b8b\4f53";
+	color: #333;
+	background: #F2F2F2;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	color: #333;
+	text-decoration:none;
+}
